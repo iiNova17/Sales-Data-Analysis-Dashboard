@@ -205,6 +205,14 @@ def analyze_data(data):
     print("\nTop 5 Sub-Categories by Sales:")
     print(top_sub_categories)
 
+    #Outliers in sales
+    Q1 = data['Sales'].quantile(0.25)
+    Q3 = data['Sales'].quantile(0.75)
+    IQR = Q3 - Q1
+    outliers = data[(data['Sales'] < (Q1 - 1.5 * IQR)) | (data['Sales'] > (Q3 + 1.5 * IQR))]
+    print("\nOutliers in Sales:")
+    print(outliers[['Order ID', 'Product Name', 'Sales']])
+
     # Top 5 months by sales
     top_months = data.groupby('Order Month')['Sales'].sum().sort_values(ascending=False).head(5)
     print("\nTop 5 Months by Sales:")
@@ -218,7 +226,8 @@ def analyze_data(data):
         "sales_by_category": sales_by_category,
         "sales_by_ship_mode": sales_by_ship_mode,
         "top_sub_categories": top_sub_categories,
-        "top_months": top_months
+        "top_months": top_months,
+        "outliers": outliers
     }
     return insights
 
