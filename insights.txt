@@ -1,0 +1,50 @@
+Top_products:
+  Canon imageCLASS 2200 Advanced Copier: 61599.824
+  Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind: 27453.384000000002
+  Cisco TelePresence System EX90 Videoconferencing Unit: 22638.48
+  HON 5400 Series Task Chairs for Big and Tall: 21870.576
+  GBC DocuBind TL300 Electric Binding System: 19823.479
+Top_customers:
+  Sean Miller: 25043.05
+  Tamara Chand: 19052.218
+  Raymond Buch: 15117.339
+  Tom Ashbrook: 14595.62
+  Adrian Barton: 14473.570999999998
+Top_states:
+  California: 446306.4635
+  New York: 306361.147
+  Texas: 168572.5322
+  Washington: 135206.85
+  Pennsylvania: 116276.65
+Top_cities:
+  New York City: 252462.547
+  Los Angeles: 173420.181
+  Seattle: 116106.322
+  San Francisco: 109041.12
+  Philadelphia: 108841.749
+Sales_by_region:
+  Central: 492646.9132
+  East: 660589.356
+  South: 389151.459
+  West: 710219.6845
+Sales_by_category:
+  Furniture: 723538.4757
+  Office Supplies: 703212.824
+  Technology: 825856.113
+Sales_by_ship_mode:
+  First Class: 345572.2573
+  Same Day: 125219.039
+  Second Class: 449198.9794
+  Standard Class: 1332617.137
+Top_sub_categories:
+  Phones: 326487.698
+  Chairs: 322107.531
+  Storage: 217779.102
+  Tables: 202810.628
+  Binders: 200028.785
+Top_months:
+  2018-11: 117938.155
+  2017-12: 95739.121
+  2018-09: 86152.888
+  2018-12: 82825.3588
+  2015-09: 81623.5268
