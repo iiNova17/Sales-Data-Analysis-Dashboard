@@ -1,0 +1,1 @@
+Task 2 of the TechMaster academy ML Course
